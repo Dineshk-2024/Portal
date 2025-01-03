@@ -149,3 +149,85 @@ p {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
+
+
+
+
+
+/* Certifications Section */
+#certifications {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+}
+
+#certifications h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  font-family: 'Madimi One', sans-serif;
+}
+
+.certification-item {
+  background-color: white;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.certification-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15), 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.certification-item h3 {
+  font-size: 24px;
+  color: #007bff;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.certification-item p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.certification-item a {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.certification-item a:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #certifications h1 {
+    font-size: 28px;
+  }
+
+  .certification-item h3 {
+    font-size: 20px;
+  }
+
+  .certification-item p {
+    font-size: 14px;
+  }
+
+  .certification-item a {
+    padding: 6px 15px;
+    font-size: 14px;
+  }
+}
